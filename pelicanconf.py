@@ -8,6 +8,8 @@ SITEURL = 'https://govhacknz.github.io/govhackwelly/'
 
 PATH = 'content'
 
+PAGE_PATHS = ['pages']
+
 ARTICLE_PATHS = ['articles']
 
 STATIC_PATHS = ['images']
@@ -15,10 +17,22 @@ STATIC_PATHS = ['images']
 THEME_PATHS = ['themes']
 THEME = 'themes/pelican-bootstrap3'
 
-BANNER = 'images/govhackwellingtonbanner.png'
-BANNER_SUBTITLE = 'empower.enable.connect'
+# Logo & banner
+
+BANNER = '/images/plainwhitebanner.png'
+BANNER_SUBTITLE = 'empower.enable.connect || 3-5 July 2015'
 BANNER_ALL_PAGES = True
-#HEADER_IMAGE = 'images/GovHackFinalTaglineColourStickerStyle.png'
+
+SITELOGO = 'images/GovHackFinalNoTaglineColour.png'
+SITELOGO_SIZE = 40
+HIDE_SITENAME = True
+
+#Plugins
+PLUGIN_PATH = 'plugins'
+
+#Tipue search
+PLUGINS = ['tipue_search']
+DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'authors', 'archives', 'search'))
 
 TIMEZONE = 'Pacific/Auckland'
 
@@ -41,7 +55,23 @@ LINKS = (('GovHack', 'http://www.govhack.org'),
 # Social widget
 SOCIAL = (('Facebook' , 'https://www.facebook.com/govhackwellington'),)
 
+SPONSORS = (('Fujitsu', 'http://fujitsu.co.nz', 'http://www.fujitsu.com/au/resources/design/stylesheets/images/css_images/fujitsu/symbolmark.gif'), ('Silverstripe', 'http://silverstripe.com', 'https://scontent.xx.fbcdn.net/hprofile-xta1/v/l/t1.0-1/p50x50/1800250_10150370979104946_1786160472_n.png?oh=7b816ea8eb311d5557994453022962af&oe=55C3A67C'))
+
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+#Tags
+TAG_CLOUD_MAX_ITEMS = 10
+
+#Categories
+DISPLAY_CATEGORIES_ON_MENU = False
+
+#Authors
+SHOW_ARTICLE_AUTHOR = True
+SHOW_ARTICLE_CATEGORY = True
+
+
+
+

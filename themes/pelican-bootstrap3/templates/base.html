@@ -13,7 +13,7 @@
     {% if 'liquid_tags.notebook' in PLUGINS %}
         {% include 'includes/liquid_tags_nb_header.html' %}
     {% endif %}
-
+ 
     {# Favicons are a touchy subject. For reasoning for the following code, see: http://stackoverflow.com/a/23851464/872397 #}
     {% if FAVICON %}
     <link href="{{ SITEURL }}/{{ FAVICON }}" rel="icon">
@@ -139,7 +139,7 @@
             <ul class="nav navbar-nav navbar-right">
             {% if 'tipue_search' in PLUGINS %}
               <li><span>
-                <form class="navbar-search" action="/search">
+                  <form class="navbar-search" action="{{ SITEURL }}/search.html">
                   <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
                 </form></span>
               </li>
