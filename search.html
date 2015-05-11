@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Blog posts - GovHack Wellington</title>
+    <title>Search - GovHack Wellington
+</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -101,19 +102,7 @@
     <div class="row">
         <div class="col-sm-9">
 
-    <section id="content">
-        <h1>GovHack Wellington's blog posts</h1>
-        <div id="archives">
-                <p>
-                    <span class="categories-timestamp"><time datetime="2015-04-30T10:13:00+12:00">Thu 30 April 2015</time></span>
-                    <a href="http://genegrey.github.io/govhackwelly/isnt-hacking-bad.html">Isn't hacking bad?</a>
-                </p>
-                <p>
-                    <span class="categories-timestamp"><time datetime="2015-04-30T10:13:00+12:00">Thu 30 April 2015</time></span>
-                    <a href="http://genegrey.github.io/govhackwelly/silverstripe-sponsors.html">Silverstripe sponsors GovHack Wellington</a>
-                </p>
-        </div>
-    </section>
+<div id="tipue_search_content"></div>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -194,5 +183,18 @@
 
     <script src="http://genegrey.github.io/govhackwelly/theme/js/bodypadding.js"></script>
 
+    <link href="http://genegrey.github.io/govhackwelly/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <script type="text/javascript" src="http://genegrey.github.io/govhackwelly/theme/tipuesearch/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="http://genegrey.github.io/govhackwelly/theme/tipuesearch/tipuesearch.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch({
+        'mode' : 'json',
+        'show': 10,
+        'newWindow': false,
+        'contentLocation': 'tipuesearch_content.json'
+      });
+    });
+    </script>
 </body>
 </html>
