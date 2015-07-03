@@ -14,11 +14,11 @@ We'll be putting useful videos, links and more here to help you have the best ha
 
 ##The data
 
-Our data wranglers are on the hunt for excellent data sources for you - keep an eye out as we start to list them here.
+Our data wranglers have found some data sources for you - [all listed here (Google spreadsheet)](https://docs.google.com/spreadsheets/d/1n7pddL_Gn3MH1jOcWSRiggf9aL1aAUHM4XbimJ8xGaE/edit?usp=sharing).
 
-If you would like a specific dataset (or many), please tell us! We can't promise we can get it for you, but we'll do our best.
+If you would like a specific dataset (or many), and can't find it, flag down a mentor at the event and they'll help.
 
-[Request list for datasets (Google spreadsheet)](https://docs.google.com/spreadsheets/d/1naC_ufC59bbT_mdWryUDSTlRvnBt6dHoWXBvR-FJGTQ/edit?usp=sharing)
+
 
 ##The video
 
